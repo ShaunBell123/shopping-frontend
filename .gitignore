@@ -1,0 +1,46 @@
+# dependencies
+/node_modules/
+
+# build output
+/build/
+/dist/
+/.parcel-cache/
+/.next/
+/out/
+
+# production
+/.env
+/.env.local
+/.env.*.local
+
+# misc
+.DS_Store
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+package-lock.json
+yarn.lock
+.pnpm-lock.yaml
+
+# testing
+/coverage/
+
+# IDEs and editors
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# macOS system files
+*.DS_Store
+
+# local environment
+/.vercel/
+/.netlify/
+/tmp/
+/.env.development.local
+/.eslintcache
